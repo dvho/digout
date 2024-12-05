@@ -1,0 +1,35 @@
+{
+    "name": "digout",
+    "version": "1.0.4",
+    "description": "Digout recursively extracts and navigates deeply nested data structures, bridging the gaps left by JavaScript's native methods. Flatten multidimensional arrays into a single linear vertical, simplifying preprocessing tasks in AI and machine learning.",
+    "main": "digout.js",
+    "files": [
+      "package.json",
+      "digout.js",
+      "digout.test.js",
+      "readme.md"
+    ],
+    "scripts": {
+      "test": "node digout.test.js",
+      "prepublishOnly": "npm test"
+    },
+    "keywords": [
+      "processing",
+      "preprocessing",
+      "machine learning",
+      "data science",
+      "artificial intelligence",
+      "AI",
+      "extraction",
+      "flattening",
+      "traversal",
+      "manipulation",
+      "object keys",
+      "object values",
+      "array keys",
+      "array values",
+      "nested structures"
+  ],
+    "author": "David H.",
+    "license": "MIT"
+}
